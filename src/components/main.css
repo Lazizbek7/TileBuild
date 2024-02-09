@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.main{
+    background-color:  rgba(24, 24, 24, 1);
+}
+.half_main{
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+.wrap_all_divs{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.text-2xl{
+    padding-top:100px ;
+    padding-bottom: 100px;
+
+}
+.about_alesya{
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 23px;
+    padding-bottom:  28px;
+}
+.about_alesya1{
+    width: 351px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.wrap_div1{
+    text-align: center;
+}
+.img_main{
+    margin: 0 auto;
+}

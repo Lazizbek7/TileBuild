@@ -1,0 +1,17 @@
+.about{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.imgs{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+.txt4{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    color: rgba(86, 86, 86, 1);
+    font-size: 22px;
+    font-weight: 400;
+}
