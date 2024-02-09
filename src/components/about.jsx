@@ -8,6 +8,7 @@ import about5 from "../images/about5.png"
 import about6 from "../images/about6.png"
 export const About = () => {
   return (
+    <div id="wrapper_about">
     <div className='about'>
         <div className='in_about'>
         <p className='txt4'>Наша продукция</p>
@@ -19,7 +20,7 @@ export const About = () => {
           <img src={about5} alt="" />
           <img src={about6} alt="" />
         </div></div>
-    </div>
+    </div></div>
   )
 }
 export default About

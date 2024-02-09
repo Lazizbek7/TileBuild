@@ -3,6 +3,7 @@ import main_img1 from "../images/main_img.png";
 import "./main.css";
 export const Main = () => {
   return (
+    <div id="wrapper_main">
     <div className="main">
       <div className="half_main">
         <p className="text-2xl">Отзывы</p>
@@ -25,7 +26,7 @@ export const Main = () => {
         </div>
       </div>
     </div>
-
+</div>
   );
 };
 export default Main;

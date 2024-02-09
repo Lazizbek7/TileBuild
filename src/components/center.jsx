@@ -4,6 +4,7 @@ import center from "../images/center.png";
 
 export const Center = () => {
   return (
+    <div id="wrapper_center">
     <div className="all_Center">
          <div className="center">
     <div className="half_center">
@@ -31,6 +32,7 @@ export const Center = () => {
         <p>Разработка интерьера в 3D c использованием VRAY технологий</p>
       </div></div></div>
     </div>
+    
     <div className="bottom_center_all">
       <div className="bottom_center">
       <p className="year">12 лет на рынке</p>
@@ -38,7 +40,7 @@ export const Center = () => {
       <a className='btn2'>Связаться</a></div>
     </div>
     </div>
-    
+    </div>
   );
 };
 export default Center;

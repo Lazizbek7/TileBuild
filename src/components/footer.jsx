@@ -2,6 +2,7 @@ import React from 'react'
 import "./footer.css"
 export const Footer = () => {
   return (
+    <div id="wrapper_footer">
     <div className="all_footer">
     <div className='Footer' >
     <div className="navbar">
@@ -22,7 +23,7 @@ export const Footer = () => {
 </div>
       <p className='permits' id='permits'>Все права зщищены © 2008 -2019 Tile<span>Build</span></p>
     </div>
-    </div>
+    </div></div>
   )
 }
 export default Footer
